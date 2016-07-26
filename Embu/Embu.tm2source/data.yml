@@ -1,0 +1,163 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: ''
+  rev: ''
+  saveCenter: true
+attribution: ''
+center: 
+  - 37.4689
+  - -0.5373
+  - 13
+description: ''
+Layer: 
+  - id: Riparian_Reserve
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Riparian_Reserve.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Land_Use
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Land_Use.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      code: String
+      Land_Use: String
+      Name: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Existing_Landuse_Embu_Town
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Existing_Landuse_Embu_Town.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+      code: String
+      Name: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Road_Network
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Road_Network.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Planning_Boundary
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Planning_Boundary.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Kari_Farm
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Kari_Farm.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Ring_Roads
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Ring_Roads.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      length: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Bypass
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Bypass.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      length: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: City_Roads
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\City_Roads.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Rivers
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Rivers.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: River_Front_Development
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\River_Front_Development.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+      Code: String
+      name: String
+      Subscript: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Railway_Line
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Railway_Line.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Network
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Network.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      length: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+maxzoom: 16
+minzoom: 0
+name: ''
