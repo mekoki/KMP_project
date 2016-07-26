@@ -1,0 +1,183 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: ''
+  rev: ''
+  saveCenter: true
+attribution: ''
+center: 
+  - 40.0675
+  - -3.2391
+  - 12
+description: ''
+Layer: 
+  - id: Transportation
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Transportation.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code1: String
+      Code2: String
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Residential
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Residential.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Recreational
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Recreational.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code1: String
+      Code2: String
+      Name: String
+      num: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Public_Utility
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Public Utility.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code1: String
+      Code2: String
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Public_Purpose
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Public Purpose.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code1: String
+      Code2: String
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Industrial
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Industrial.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code1: String
+      Code2: String
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Educational
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Educational.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code2: String
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Commercial
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Commercial.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code1: String
+      Code2: String
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Railway
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Proposed Railway.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Outer_Ring_Road
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Proposed Outer Ring Road.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Outer_Bypass
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Proposed Outer Bypass.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Malindi_Bypass
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Proposed Malindi Bypass.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Inner_Ring_Road
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Proposed Inner Ring Road.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+maxzoom: 16
+minzoom: 0
+name: Malindi Project

@@ -1,0 +1,63 @@
+
+#Proposed_Network{
+  line-color:#239;
+  line-width:0.6;  
+}
+#Proposed_Railway_Line{
+  line-color:#ff00c5;
+  line-width:0.7; 
+}
+#River_Front_Development{
+  line-color:#000000;
+  line-width:0.2;
+  polygon-opacity:1;
+  polygon-fill:#38a800;
+}
+#Rivers{
+  line-color:#007Aff;
+  line-width:0.12;
+}
+#City_Roads{
+  line-color:#343434;
+  line-width:0.8;
+}
+#Proposed_Bypass{
+  line-color:#ff73df;
+  line-width:1.0;  
+}
+#Proposed_Ring_Roads{
+  line-color:#4e4e4e;
+  line-width:0.6;
+}
+#Kari_Farm{
+  line-color:#000000;
+  line-width:0.15;
+  polygon-opacity:1;
+  polygon-fill:#267300;
+}
+#Planning_Boundary{
+  line-color:#a80000;
+  line-width:1.0;
+  polygon-opacity:00;
+  //polygon-fill:#38a800;
+}
+#Proposed_Road_Network{
+  line-color:#6e6e6e;
+  line-width:0.1;
+  polygon-opacity:1;
+  polygon-fill:#686868;
+}
+#Existing_Landuse_Embu_Town{
+}
+#Proposed_Land_Use{
+  line-color:#594;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#ff0000;
+}
+#Riparian_Reserve{
+  line-color:#594;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#550011;
+}

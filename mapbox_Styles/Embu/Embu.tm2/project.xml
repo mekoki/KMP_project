@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#ffffff">
+
+<Parameters>
+  <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">37.5056,-0.6035,17</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">22</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="source"><![CDATA[tmsource://c:/Work/KMP_PROJECT/KMP_project/mapbox_Styles/Embu/Embu.tm2source]]></Parameter>
+</Parameters>
+
+
+<Style name="Riparian_Reserve" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#559944" stroke-width="0.5" />
+    <PolygonSymbolizer fill-opacity="1" fill="#550011" />
+  </Rule>
+</Style>
+<Layer name="Riparian_Reserve"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Riparian_Reserve</StyleName>  </Layer>
+
+<Style name="Proposed_Land_Use" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#559944" stroke-width="0.5" />
+    <PolygonSymbolizer fill-opacity="1" fill="#ff0000" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Land_Use"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Land_Use</StyleName>  </Layer>
+
+<Layer name="Existing_Landuse_Embu_Town"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="Proposed_Road_Network" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#6e6e6e" stroke-width="0.1" />
+    <PolygonSymbolizer fill-opacity="1" fill="#686868" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Road_Network"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Road_Network</StyleName>  </Layer>
+
+<Style name="Planning_Boundary" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#a80000" stroke-width="1" />
+    <PolygonSymbolizer fill-opacity="0" />
+  </Rule>
+</Style>
+<Layer name="Planning_Boundary"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Planning_Boundary</StyleName>  </Layer>
+
+<Style name="Kari_Farm" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#000000" stroke-width="0.15" />
+    <PolygonSymbolizer fill-opacity="1" fill="#267300" />
+  </Rule>
+</Style>
+<Layer name="Kari_Farm"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Kari_Farm</StyleName>  </Layer>
+
+<Style name="Proposed_Ring_Roads" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.6" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Ring_Roads"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Ring_Roads</StyleName>  </Layer>
+
+<Style name="Proposed_Bypass" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#ff73df" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Bypass"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Bypass</StyleName>  </Layer>
+
+<Style name="City_Roads" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#343434" stroke-width="0.8" />
+  </Rule>
+</Style>
+<Layer name="City_Roads"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>City_Roads</StyleName>  </Layer>
+
+<Style name="Rivers" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#007aff" stroke-width="0.12" />
+  </Rule>
+</Style>
+<Layer name="Rivers"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Rivers</StyleName>  </Layer>
+
+<Style name="River_Front_Development" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#000000" stroke-width="0.2" />
+    <PolygonSymbolizer fill-opacity="1" fill="#38a800" />
+  </Rule>
+</Style>
+<Layer name="River_Front_Development"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>River_Front_Development</StyleName>  </Layer>
+
+<Style name="Proposed_Railway_Line" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#ff00c5" stroke-width="0.7" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Railway_Line"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Railway_Line</StyleName>  </Layer>
+
+<Style name="Proposed_Network" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#223399" stroke-width="0.6" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Network"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Network</StyleName>  </Layer>
+
+</Map>

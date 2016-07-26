@@ -1,14 +1,26 @@
 _prefs: 
-  disabled: []
+  disabled: 
+    - Proposed_Railway_Line
+    - River_Front_Development
+    - Rivers
+    - City_Roads
+    - Proposed_Bypass
+    - Proposed_Ring_Roads
+    - Kari_Farm
+    - Planning_Boundary
+    - Proposed_Road_Network
+    - Existing_Landuse_Embu_Town
+    - Proposed_Land_Use
+    - Riparian_Reserve
   inspector: false
   mapid: ''
   rev: ''
   saveCenter: true
-attribution: ''
+attribution: Upande limited, Unhabitat
 center: 
-  - 37.4631
-  - -0.5302
-  - 14
+  - 37.4704
+  - -0.5475
+  - 16
 description: ''
 Layer: 
   - id: Riparian_Reserve
@@ -49,7 +61,7 @@ Layer:
       Subscript: String
     properties: 
       "buffer-size": 32
-    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+    srs: +proj=cea +lon_0=0 +lat_ts=30 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs
   - id: Proposed_Road_Network
     Datasource: 
       file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Road_Network.shp"
@@ -160,4 +172,4 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
 maxzoom: 16
 minzoom: 0
-name: ''
+name: Proposed Embu Town Structure Plan

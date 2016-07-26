@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="center">40.0675,-3.2391,12</Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"Transportation","description":"","fields":{"Id":"Number","Name":"String","Area":"Number","Code1":"String","Code2":"String"}},{"id":"Residential","description":"","fields":{"Id":"Number","Name":"String","Area":"Number","Code":"String","Code1":"String"}},{"id":"Recreational","description":"","fields":{"Id":"Number","Name":"String","Area":"Number","Code1":"String","Code2":"String","num":"Number"}},{"id":"Public_Utility","description":"","fields":{"Id":"Number","name":"String","Area":"Number","Code1":"String","Code2":"String"}},{"id":"Public_Purpose","description":"","fields":{"Id":"Number","Name":"String","Area":"Number","Code1":"String","Code2":"String"}},{"id":"Industrial","description":"","fields":{"Id":"Number","Name":"String","Area":"Number","Code1":"String","Code2":"String"}},{"id":"Educational","description":"","fields":{"Id":"Number","Name":"String","Area":"Number","Code":"String","Code2":"String"}},{"id":"Commercial","description":"","fields":{"Id":"Number","Name":"String","Area":"Number","Code1":"String","Code2":"String"}},{"id":"Proposed_Railway","description":"","fields":{"Id":"Number"}},{"id":"Proposed_Outer_Ring_Road","description":"","fields":{"Id":"Number","Name":"String"}},{"id":"Proposed_Outer_Bypass","description":"","fields":{"Id":"Number","Name":"String"}},{"id":"Proposed_Malindi_Bypass","description":"","fields":{"Id":"Number","Name":"String"}},{"id":"Proposed_Inner_Ring_Road","description":"","fields":{"Id":"Number","Name":"String"}}]}]]></Parameter>
+  <Parameter name="maxzoom">16</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[Malindi Project]]></Parameter>
+</Parameters>
+
+
+<Layer name="Transportation"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Transportation.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Residential"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Residential.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Recreational"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Recreational.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Public_Utility"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Public Utility.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Public_Purpose"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Public Purpose.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Industrial"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Industrial.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Educational"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Educational.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Commercial"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Commercial.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Railway"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Proposed Railway.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Outer_Ring_Road"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Proposed Outer Ring Road.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Outer_Bypass"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Proposed Outer Bypass.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Malindi_Bypass"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Proposed Malindi Bypass.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Inner_Ring_Road"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\Proposed Inner Ring Road.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
