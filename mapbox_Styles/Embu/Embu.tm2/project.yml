@@ -10,16 +10,16 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 37.5056
-  - -0.6035
-  - 17
+  - 37.4665
+  - -0.5336
+  - 15
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
 layers: null
 maxzoom: 22
 minzoom: 0
-name: ''
+name: Embu
 source: "tmsource://c:/Work/KMP_PROJECT/KMP_project/mapbox_Styles/Embu/Embu.tm2source"
 styles: 
   - style.mss

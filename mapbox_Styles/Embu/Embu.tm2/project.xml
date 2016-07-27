@@ -5,17 +5,18 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">37.5056,-0.6035,17</Parameter>
+  <Parameter name="center">37.4665,-0.5336,15</Parameter>
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[Embu]]></Parameter>
   <Parameter name="source"><![CDATA[tmsource://c:/Work/KMP_PROJECT/KMP_project/mapbox_Styles/Embu/Embu.tm2source]]></Parameter>
 </Parameters>
 
 
 <Style name="Riparian_Reserve" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#559944" stroke-width="0.5" />
+    <LineSymbolizer stroke="#559944" stroke-width="0.1" />
     <PolygonSymbolizer fill-opacity="1" fill="#550011" />
   </Rule>
 </Style>
@@ -25,20 +26,163 @@
 
 <Style name="Proposed_Land_Use" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#559944" stroke-width="0.5" />
-    <PolygonSymbolizer fill-opacity="1" fill="#ff0000" />
+    <Filter>([Land_Use] = 'Truck Terminus')</Filter>
+    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#828282" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Transportation')</Filter>
+    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#686868" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Residential')</Filter>
+    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#732600" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Recreational')</Filter>
+    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#4ce600" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Public Utility')</Filter>
+    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#005ce6" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Public Purpose')</Filter>
+    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#e6e600" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Matatu Stage')</Filter>
+    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#828282" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Industrial')</Filter>
+    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#8400a8" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Educational')</Filter>
+    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#a87000" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Commercial')</Filter>
+    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#e60000" />
+  </Rule>
+  <Rule>
+    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
   </Rule>
 </Style>
 <Layer name="Proposed_Land_Use"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>Proposed_Land_Use</StyleName>  </Layer>
 
-<Layer name="Existing_Landuse_Embu_Town"
+<Style name="reprojected_Existing_Landuse_Embu_Town" filter-mode="first">
+  <Rule>
+    <Filter>([Land_Use] = 'Undeveloped Agriculture')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#4ce600" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Transportation Network')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#686868" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Existing Residential')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#895a44" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Existing Recreational')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#a3ff73" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Existing Quarries')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#000000" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Existing Public Utility')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#00a9e6" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Existing Public Purpose')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#ffff73" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Existing Industrial')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#c500ff" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Existing Educational')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#e69800" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Existing Conservation')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#38a800" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Existing Commercial')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#ff0000" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Dams')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#73b2ff" />
+  </Rule>
+  <Rule>
+    <Filter>([Land_Use] = 'Agricultural')</Filter>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#a3ff73" />
+  </Rule>
+  <Rule>
+    <LineSymbolizer stroke="#4e4e4e" stroke-width="0.04" />
+  </Rule>
+</Style>
+<Layer name="reprojected_Existing_Landuse_Embu_Town"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-      </Layer>
+    <StyleName>reprojected_Existing_Landuse_Embu_Town</StyleName>  </Layer>
 
 <Style name="Proposed_Road_Network" filter-mode="first">
   <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="0.5" stroke="#6e6e6e" />
+    <PolygonSymbolizer fill-opacity="1" fill="#686868" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <LineSymbolizer stroke-width="0.3" stroke="#6e6e6e" />
+    <PolygonSymbolizer fill-opacity="1" fill="#686868" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="0.2" stroke="#6e6e6e" />
+    <PolygonSymbolizer fill-opacity="1" fill="#686868" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="0.1" stroke="#6e6e6e" />
+    <PolygonSymbolizer fill-opacity="1" fill="#686868" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>750000</MinScaleDenominator>
     <LineSymbolizer stroke="#6e6e6e" stroke-width="0.1" />
     <PolygonSymbolizer fill-opacity="1" fill="#686868" />
   </Rule>

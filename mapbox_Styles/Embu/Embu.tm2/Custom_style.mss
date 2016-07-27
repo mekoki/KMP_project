@@ -46,18 +46,93 @@
   line-width:0.1;
   polygon-opacity:1;
   polygon-fill:#686868;
+        [zoom>=10] { line-width: 0.1; }
+      [zoom>=12] { line-width: 0.2; }
+      [zoom>=14] { line-width: 0.3; }
+      [zoom>=16] { line-width: 0.5; }
 }
-#Existing_Landuse_Embu_Town{
-}
-#Proposed_Land_Use{
-  line-color:#594;
-  line-width:0.5;
-  polygon-opacity:1;
+#reprojected_Existing_Landuse_Embu_Town{
+line-color:#4e4e4e;
+line-width:0.04;
+  [Land_Use ='Agricultural'] {
+  polygon-fill:#a3ff73;
+  }
+  [Land_Use ='Dams'] {
+  polygon-fill:#73b2ff;
+  }
+  [Land_Use ='Existing Commercial'] {  
   polygon-fill:#ff0000;
+  }
+  [Land_Use ='Existing Conservation'] {
+  polygon-fill:#38a800;
+  }
+  [Land_Use ='Existing Educational'] {
+  polygon-fill:#e69800;
+  }
+  [Land_Use ='Existing Industrial'] {
+  polygon-fill:#c500ff;
+  }
+  [Land_Use ='Existing Public Purpose'] {
+  polygon-fill:#ffff73;
+  }
+  [Land_Use ='Existing Public Utility'] {
+  polygon-fill:#00a9e6;
+  }
+  [Land_Use ='Existing Quarries'] {
+  polygon-fill:#000;
+  }
+  [Land_Use ='Existing Recreational'] {
+  polygon-fill:#a3ff73;
+  }
+  [Land_Use ='Existing Residential'] {
+  polygon-fill:#895a44;
+  }
+  [Land_Use ='Transportation Network'] {
+  polygon-fill:#686868;
+  }
+  [Land_Use ='Undeveloped Agriculture'] {
+  polygon-fill:#4ce600;
+  }  
 }
+
+#Proposed_Land_Use{
+line-color:#594;
+line-width:0.04;
+  [Land_Use ='Commercial'] {
+  polygon-fill:#E60000;
+  } 
+  [Land_Use ='Educational'] {
+  polygon-fill:#a87000;
+  }
+  [Land_Use ='Industrial'] {  
+  polygon-fill:#8400a8;
+  }
+  [Land_Use ='Matatu Stage'] {
+  polygon-fill:#828282;
+  }
+  [Land_Use ='Public Purpose'] {
+  polygon-fill:#e6e600;
+  }
+  [Land_Use ='Public Utility'] {
+  polygon-fill:#005ce6;
+  }
+  [Land_Use ='Recreational'] {
+  polygon-fill:#4ce600;
+  }
+  [Land_Use ='Residential'] {
+  polygon-fill:#732600;
+  }
+  [Land_Use ='Transportation'] {
+  polygon-fill:#686868;
+  }
+  [Land_Use ='Truck Terminus'] {
+  polygon-fill:#828282;
+  }
+}
+
 #Riparian_Reserve{
   line-color:#594;
-  line-width:0.5;
+  line-width:0.1;
   polygon-opacity:1;
   polygon-fill:#550011;
 }

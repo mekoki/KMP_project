@@ -4,9 +4,9 @@
 
 <Parameters>
   <Parameter name="attribution"><![CDATA[Upande limited, Unhabitat]]></Parameter>
-  <Parameter name="center">37.4704,-0.5475,16</Parameter>
+  <Parameter name="center">37.4912,-0.5495,12</Parameter>
   <Parameter name="format">pbf</Parameter>
-  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"Riparian_Reserve","description":"","fields":{"Id":"Number"}},{"id":"Proposed_Land_Use","description":"","fields":{"Id":"Number","Name":"String","Area":"Number","Land_Use":"String","code":"String","Subscript":"String"}},{"id":"Existing_Landuse_Embu_Town","description":"","fields":{"Id":"Number","Name":"String","code":"String","Subscript":"String","area":"Number"}},{"id":"Proposed_Road_Network","description":"","fields":{"Id":"Number"}},{"id":"Planning_Boundary","description":"","fields":{"Id":"Number","Area":"Number"}},{"id":"Kari_Farm","description":"","fields":{"Id":"Number"}},{"id":"Proposed_Ring_Roads","description":"","fields":{"Id":"Number","length":"Number"}},{"id":"Proposed_Bypass","description":"","fields":{"Id":"Number","length":"Number"}},{"id":"City_Roads","description":"","fields":{"Id":"Number"}},{"id":"Rivers","description":"","fields":{"Id":"Number"}},{"id":"River_Front_Development","description":"","fields":{"Id":"Number","name":"String","Code":"String","Subscript":"Number","area":"Number"}},{"id":"Proposed_Railway_Line","description":"","fields":{"Id":"Number"}},{"id":"Proposed_Network","description":"","fields":{"Id":"Number","length":"Number"}}]}]]></Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"Riparian_Reserve","description":"","fields":{"Id":"Number"}},{"id":"Proposed_Land_Use","description":"","fields":{"Id":"Number","Name":"String","Area":"Number","Land_Use":"String","code":"String","Subscript":"String"}},{"id":"reprojected_Existing_Landuse_Embu_Town","description":"","fields":{"Id":"Number","Name":"String","code":"String","Subscript":"String","area":"Number"}},{"id":"Proposed_Road_Network","description":"","fields":{"Id":"Number"}},{"id":"Planning_Boundary","description":"","fields":{"Id":"Number","Area":"Number"}},{"id":"Kari_Farm","description":"","fields":{"Id":"Number"}},{"id":"Proposed_Ring_Roads","description":"","fields":{"Id":"Number","length":"Number"}},{"id":"Proposed_Bypass","description":"","fields":{"Id":"Number","length":"Number"}},{"id":"City_Roads","description":"","fields":{"Id":"Number"}},{"id":"Rivers","description":"","fields":{"Id":"Number"}},{"id":"River_Front_Development","description":"","fields":{"Id":"Number","name":"String","Code":"String","Subscript":"Number","area":"Number"}},{"id":"Proposed_Railway_Line","description":"","fields":{"Id":"Number"}},{"id":"Proposed_Network","description":"","fields":{"Id":"Number","length":"Number"}}]}]]></Parameter>
   <Parameter name="maxzoom">16</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="name"><![CDATA[Proposed Embu Town Structure Plan]]></Parameter>
@@ -33,12 +33,12 @@
     </Datasource>
   </Layer>
 
-<Layer name="Existing_Landuse_Embu_Town"
+<Layer name="reprojected_Existing_Landuse_Embu_Town"
   buffer-size="32"
-  srs="+proj=cea +lon_0=0 +lat_ts=30 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs">
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
     
     <Datasource>
-       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\Existing_Landuse_Embu_Town.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES/Reprojected_shapefiles\reprojected_Existing_Landuse_Embu_Town.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>
