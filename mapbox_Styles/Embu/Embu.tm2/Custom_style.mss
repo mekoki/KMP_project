@@ -1,18 +1,31 @@
 
 #Proposed_Network{
-  line-color:#239;
-  line-width:0.6;  
+  ::line {
+  line-color:#4e4e4e;
+  line-width:3;
+  }
+  ::dash {
+    line-color: #e60000;
+    line-width:3;
+    line-dasharray: 6, 6;
+  }  
 }
 #Proposed_Railway_Line{
-  line-color:#ff00c5;
-  line-width:0.7; 
+
+  ::line, ::hatch { line-color: #ff00c5; }
+  ::line { line-width:1; }
+  ::hatch {
+    line-width: 4;
+    line-dasharray: 1, 24;
+  }
 }
-#River_Front_Development{
+#River_Front_Development{  
   line-color:#000000;
   line-width:0.2;
   polygon-opacity:1;
-  polygon-fill:#38a800;
-}
+  //polygon-fill:#38a800;  
+  polygon-pattern-file: url(images/river_front.png);
+  }
 #Rivers{
   line-color:#007Aff;
   line-width:0.12;
@@ -27,19 +40,31 @@
 }
 #Proposed_Ring_Roads{
   line-color:#4e4e4e;
-  line-width:0.6;
+  line-width:3;
+   ::line {
+  line-color:#4e4e4e;
+  line-width:1;
+  }
+  ::dash {
+    line-color: #e60000;
+    line-width: 3;
+    line-dasharray: 6, 6;
+  }
 }
 #Kari_Farm{
   line-color:#000000;
   line-width:0.15;
   polygon-opacity:1;
-  polygon-fill:#267300;
+  //polygon-fill:#267300;
+  polygon-pattern-file: url(images/kari_farm.png)
 }
 #Planning_Boundary{
+  line-width: 3;
+  //line-color: #426;
   line-color:#a80000;
-  line-width:1.0;
-  polygon-opacity:00;
+  //polygon-opacity:00;
   //polygon-fill:#38a800;
+ 
 }
 #Proposed_Road_Network{
   line-color:#6e6e6e;
@@ -54,43 +79,43 @@
 #reprojected_Existing_Landuse_Embu_Town{
 line-color:#4e4e4e;
 line-width:0.04;
-  [Land_Use ='Agricultural'] {
+  [Name ='Agricultural'] {
   polygon-fill:#a3ff73;
   }
-  [Land_Use ='Dams'] {
+  [Name ='Dams'] {
   polygon-fill:#73b2ff;
   }
-  [Land_Use ='Existing Commercial'] {  
+  [Name ='Existing Commercial'] {  
   polygon-fill:#ff0000;
   }
-  [Land_Use ='Existing Conservation'] {
+  [Name ='Existing Conservation'] {
   polygon-fill:#38a800;
   }
-  [Land_Use ='Existing Educational'] {
+  [Name ='Existing Educational'] {
   polygon-fill:#e69800;
   }
-  [Land_Use ='Existing Industrial'] {
+  [Name ='Existing Industrial'] {
   polygon-fill:#c500ff;
   }
-  [Land_Use ='Existing Public Purpose'] {
+  [Name ='Existing Public Purpose'] {
   polygon-fill:#ffff73;
   }
-  [Land_Use ='Existing Public Utility'] {
+  [Name ='Existing Public Utility'] {
   polygon-fill:#00a9e6;
   }
-  [Land_Use ='Existing Quarries'] {
+  [Name ='Existing Quarries'] {
   polygon-fill:#000;
   }
-  [Land_Use ='Existing Recreational'] {
+  [Name ='Existing Recreational'] {
   polygon-fill:#a3ff73;
   }
-  [Land_Use ='Existing Residential'] {
+  [Name ='Existing Residential'] {
   polygon-fill:#895a44;
   }
-  [Land_Use ='Transportation Network'] {
+  [Name ='Transportation Network'] {
   polygon-fill:#686868;
   }
-  [Land_Use ='Undeveloped Agriculture'] {
+  [Name ='Undeveloped Agriculture'] {
   polygon-fill:#4ce600;
   }  
 }
