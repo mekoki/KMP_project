@@ -28,7 +28,7 @@
   }
 #Rivers{
   line-color:#007Aff;
-  line-width:0.12;
+  line-width:2;
 }
 #City_Roads{
   line-color:#343434;
