@@ -59,12 +59,22 @@
   polygon-pattern-file: url(images/kari_farm.png)
 }
 #Planning_Boundary{
-  line-width: 3;
+  ::case {
+      line-width: 5;
+      line-color:#d83;
+    }
+    ::fill {
+      line-width: 6;
+      line-color:#f00;
+    }
+  //line-width: 3;
   //line-color: #426;
-  line-color:#a80000;
+  line-color:#000;
   //polygon-opacity:00;
   //polygon-fill:#38a800;
- 
+  line-width: 2;
+  //line-color: #426;
+  line-dasharray: 10, 5; 
 }
 #Proposed_Road_Network{
   line-color:#6e6e6e;
