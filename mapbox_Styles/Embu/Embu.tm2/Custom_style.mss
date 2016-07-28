@@ -13,10 +13,10 @@
 #Proposed_Railway_Line{
 
   ::line, ::hatch { line-color: #ff00c5; }
-  ::line { line-width:1; }
+  ::line { line-width:2; }
   ::hatch {
-    line-width: 4;
-    line-dasharray: 1, 24;
+    line-width: 10;
+    line-dasharray: 1,10;
   }
 }
 #River_Front_Development{  
@@ -28,7 +28,7 @@
   }
 #Rivers{
   line-color:#007Aff;
-  line-width:2;
+  line-width:1;
 }
 #City_Roads{
   line-color:#343434;
@@ -36,7 +36,7 @@
 }
 #Proposed_Bypass{
   line-color:#ff73df;
-  line-width:1.0;  
+  line-width:2.0;  
 }
 #Proposed_Ring_Roads{
   line-color:#4e4e4e;
@@ -56,14 +56,13 @@
   line-width:0.15;
   polygon-opacity:1;
   //polygon-fill:#267300;
-  polygon-pattern-file: url(images/kari_farm.png)
+  polygon-pattern-file: url(images/kari_farm_3.png)
 }
 #Planning_Boundary{
    ::fill {
-    line-width: 6;
+    line-width: 5;
     line-color:#f00;
-    }
-  
+    }  
   line-color:#000;  
   line-width: 1;  
   line-dasharray: 10, 5; 
@@ -73,7 +72,7 @@
   line-width:0.1;
   polygon-opacity:1;
   polygon-fill:#686868;
-        [zoom>=10] { line-width: 0.1; }
+        [zoom>=10] {line-width: 0.1; }
       [zoom>=12] { line-width: 0.2; }
       [zoom>=14] { line-width: 0.3; }
       [zoom>=16] { line-width: 0.5; }
@@ -81,7 +80,7 @@
 #reprojected_Existing_Landuse_Embu_Town{
 line-color:#4e4e4e;
 line-width:0.4;
-  polygon-opacity:0.6;
+  //polygon-opacity:0.6;
   [Name ='Agricultural'] {
   polygon-fill:#a3ff73;
   polygon-pattern-file: url(images/existing_agriculture.png);
@@ -129,7 +128,7 @@ line-width:0.4;
 
 #Proposed_Land_Use{
 line-color:#594;
-line-width:0.04;
+line-width:4;
   [Land_Use ='Commercial'] {
   polygon-fill:#E60000;
   } 
@@ -164,7 +163,7 @@ line-width:0.04;
 
 #Riparian_Reserve{
   line-color:#594;
-  line-width:0.1;
+  line-width:2;
   polygon-opacity:1;
   polygon-fill:#550011;
   polygon-pattern-file: url(images/riparian_reserve.png) 

@@ -5,7 +5,7 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">37.456,-0.4915,16</Parameter>
+  <Parameter name="center">37.4493,-0.541,17</Parameter>
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
@@ -16,7 +16,7 @@
 
 <Style name="Riparian_Reserve" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#559944" stroke-width="0.1" />
+    <LineSymbolizer stroke="#559944" stroke-width="2" />
     <PolygonSymbolizer fill-opacity="1" fill="#550011" />
     <PolygonPatternSymbolizer file="images/riparian_reserve.png" />
   </Rule>
@@ -28,56 +28,56 @@
 <Style name="Proposed_Land_Use" filter-mode="first">
   <Rule>
     <Filter>([Land_Use] = 'Truck Terminus')</Filter>
-    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <LineSymbolizer stroke="#559944" stroke-width="4" />
     <PolygonSymbolizer fill="#828282" />
   </Rule>
   <Rule>
     <Filter>([Land_Use] = 'Transportation')</Filter>
-    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <LineSymbolizer stroke="#559944" stroke-width="4" />
     <PolygonSymbolizer fill="#686868" />
   </Rule>
   <Rule>
     <Filter>([Land_Use] = 'Residential')</Filter>
-    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <LineSymbolizer stroke="#559944" stroke-width="4" />
     <PolygonSymbolizer fill="#732600" />
   </Rule>
   <Rule>
     <Filter>([Land_Use] = 'Recreational')</Filter>
-    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <LineSymbolizer stroke="#559944" stroke-width="4" />
     <PolygonSymbolizer fill="#4ce600" />
   </Rule>
   <Rule>
     <Filter>([Land_Use] = 'Public Utility')</Filter>
-    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <LineSymbolizer stroke="#559944" stroke-width="4" />
     <PolygonSymbolizer fill="#005ce6" />
   </Rule>
   <Rule>
     <Filter>([Land_Use] = 'Public Purpose')</Filter>
-    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <LineSymbolizer stroke="#559944" stroke-width="4" />
     <PolygonSymbolizer fill="#e6e600" />
   </Rule>
   <Rule>
     <Filter>([Land_Use] = 'Matatu Stage')</Filter>
-    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <LineSymbolizer stroke="#559944" stroke-width="4" />
     <PolygonSymbolizer fill="#828282" />
   </Rule>
   <Rule>
     <Filter>([Land_Use] = 'Industrial')</Filter>
-    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <LineSymbolizer stroke="#559944" stroke-width="4" />
     <PolygonSymbolizer fill="#8400a8" />
   </Rule>
   <Rule>
     <Filter>([Land_Use] = 'Educational')</Filter>
-    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <LineSymbolizer stroke="#559944" stroke-width="4" />
     <PolygonSymbolizer fill="#a87000" />
   </Rule>
   <Rule>
     <Filter>([Land_Use] = 'Commercial')</Filter>
-    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <LineSymbolizer stroke="#559944" stroke-width="4" />
     <PolygonSymbolizer fill="#e60000" />
   </Rule>
   <Rule>
-    <LineSymbolizer stroke="#559944" stroke-width="0.04" />
+    <LineSymbolizer stroke="#559944" stroke-width="4" />
   </Rule>
 </Style>
 <Layer name="Proposed_Land_Use"
@@ -88,75 +88,74 @@
   <Rule>
     <Filter>([Name] = 'Undeveloped Agriculture')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#ff0000" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#ff0000" />
     <PolygonPatternSymbolizer file="images/undeveloped_agriculture.png" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Transportation Network')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#686868" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#686868" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Existing Residential')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#895a44" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#895a44" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Existing Recreational')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#a3ff73" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#a3ff73" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Existing Quarries')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#000000" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#000000" />
     <PolygonPatternSymbolizer file="images/existing_quarries.png" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Existing Public Utility')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#00a9e6" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#00a9e6" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Existing Public Purpose')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#ffff73" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#ffff73" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Existing Industrial')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#c500ff" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#c500ff" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Existing Educational')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#e69800" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#e69800" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Existing Conservation')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#38a800" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#38a800" />
     <PolygonPatternSymbolizer file="images/existing_conservation.png" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Existing Commercial')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#ff0000" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#ff0000" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Dams')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#73b2ff" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#73b2ff" />
   </Rule>
   <Rule>
     <Filter>([Name] = 'Agricultural')</Filter>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill="#a3ff73" fill-opacity="0.6" />
+    <PolygonSymbolizer fill="#a3ff73" />
     <PolygonPatternSymbolizer file="images/existing_agriculture.png" />
   </Rule>
   <Rule>
     <LineSymbolizer stroke="#4e4e4e" stroke-width="0.4" />
-    <PolygonSymbolizer fill-opacity="0.6" />
   </Rule>
 </Style>
 <Layer name="reprojected_Existing_Landuse_Embu_Town"
@@ -204,7 +203,7 @@
 </Style>
 <Style name="Planning_Boundary-fill" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="6" stroke="#ff0000" />
+    <LineSymbolizer stroke-width="5" stroke="#ff0000" />
   </Rule>
 </Style>
 <Layer name="Planning_Boundary"
@@ -216,7 +215,7 @@
   <Rule>
     <LineSymbolizer stroke="#000000" stroke-width="0.15" />
     <PolygonSymbolizer fill-opacity="1" />
-    <PolygonPatternSymbolizer file="images/kari_farm.png" />
+    <PolygonPatternSymbolizer file="images/kari_farm_3.png" />
   </Rule>
 </Style>
 <Layer name="Kari_Farm"
@@ -246,7 +245,7 @@
 
 <Style name="Proposed_Bypass" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#ff73df" stroke-width="1" />
+    <LineSymbolizer stroke="#ff73df" stroke-width="2" />
   </Rule>
 </Style>
 <Layer name="Proposed_Bypass"
@@ -264,7 +263,7 @@
 
 <Style name="Rivers" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#007aff" stroke-width="2" />
+    <LineSymbolizer stroke="#007aff" stroke-width="1" />
   </Rule>
 </Style>
 <Layer name="Rivers"
@@ -284,12 +283,12 @@
 
 <Style name="Proposed_Railway_Line-hatch" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="4" stroke-dasharray="1, 24" stroke="#ff00c5" />
+    <LineSymbolizer stroke-width="10" stroke-dasharray="1, 10" stroke="#ff00c5" />
   </Rule>
 </Style>
 <Style name="Proposed_Railway_Line-line" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="#ff00c5" />
+    <LineSymbolizer stroke-width="2" stroke="#ff00c5" />
   </Rule>
 </Style>
 <Layer name="Proposed_Railway_Line"
