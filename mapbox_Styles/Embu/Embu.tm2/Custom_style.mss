@@ -59,21 +59,13 @@
   polygon-pattern-file: url(images/kari_farm.png)
 }
 #Planning_Boundary{
-  ::case {
-      line-width: 5;
-      line-color:#d83;
+   ::fill {
+    line-width: 6;
+    line-color:#f00;
     }
-    ::fill {
-      line-width: 6;
-      line-color:#f00;
-    }
-  //line-width: 3;
-  //line-color: #426;
-  line-color:#000;
-  //polygon-opacity:00;
-  //polygon-fill:#38a800;
-  line-width: 2;
-  //line-color: #426;
+  
+  line-color:#000;  
+  line-width: 1;  
   line-dasharray: 10, 5; 
 }
 #Proposed_Road_Network{
@@ -88,9 +80,11 @@
 }
 #reprojected_Existing_Landuse_Embu_Town{
 line-color:#4e4e4e;
-line-width:0.04;
+line-width:0.4;
+  polygon-opacity:0.6;
   [Name ='Agricultural'] {
   polygon-fill:#a3ff73;
+  polygon-pattern-file: url(images/existing_agriculture.png);
   }
   [Name ='Dams'] {
   polygon-fill:#73b2ff;
@@ -100,6 +94,7 @@ line-width:0.04;
   }
   [Name ='Existing Conservation'] {
   polygon-fill:#38a800;
+  polygon-pattern-file: url(images/existing_conservation.png);
   }
   [Name ='Existing Educational'] {
   polygon-fill:#e69800;
@@ -115,6 +110,7 @@ line-width:0.04;
   }
   [Name ='Existing Quarries'] {
   polygon-fill:#000;
+  polygon-pattern-file: url(images/existing_quarries.png);
   }
   [Name ='Existing Recreational'] {
   polygon-fill:#a3ff73;
@@ -126,7 +122,8 @@ line-width:0.04;
   polygon-fill:#686868;
   }
   [Name ='Undeveloped Agriculture'] {
-  polygon-fill:#4ce600;
+  polygon-fill:#f00;
+  polygon-pattern-file: url(images/undeveloped_agriculture.png);   
   }  
 }
 
@@ -162,7 +159,7 @@ line-width:0.04;
   }
   [Land_Use ='Truck Terminus'] {
   polygon-fill:#828282;
-  }
+  }  
 }
 
 #Riparian_Reserve{
@@ -170,4 +167,5 @@ line-width:0.04;
   line-width:0.1;
   polygon-opacity:1;
   polygon-fill:#550011;
+  polygon-pattern-file: url(images/riparian_reserve.png) 
 }
