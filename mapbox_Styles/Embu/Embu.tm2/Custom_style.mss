@@ -56,7 +56,7 @@
   line-width:0.15;
   polygon-opacity:1;
   //polygon-fill:#267300;
-  polygon-pattern-file: url(images/kari_farm_3.png)
+  polygon-pattern-file: url(images/kari_farm_5.png)
 }
 #Planning_Boundary{
    ::fill {

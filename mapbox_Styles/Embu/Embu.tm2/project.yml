@@ -10,9 +10,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 37.4493
-  - -0.541
-  - 17
+  - 37.4982
+  - -0.5866
+  - 13
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
@@ -24,5 +24,4 @@ source: "tmsource://c:/Work/KMP_PROJECT/KMP_project/mapbox_Styles/Embu/Embu.tm2s
 styles: 
   - style.mss
   - Custom_style.mss
-  - labels.mss
 template: ''

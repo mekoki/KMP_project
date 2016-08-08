@@ -1,0 +1,6 @@
+tl copy -z  -Z 6 -b "-124.4096 32.5343 -114.1308 42.0095" \
+  tmstyle://./project.tm2/ mbtiles://./tiles.mbtiles
+
+tl copy -z 11 -Z 15 -b "37.3837 -0.6653 37.6069 -0.4189" \ tmstyle://.C:/Work/KMP_PROJECT/KMP_project/mapbox_Styles/Embu/Embu.tm2/ mbtiles://./tiles.mbtiles
+
+tl copy -z 11 -Z 15 -b "37.3837 -0.6653 37.6069 -0.4189" tmstyle:///work\KMP_PROJECT\KMP_project\mapbox_Styles\Embu\Embu.tm2 mbtiles:///work\KMP_PROJECT\KMP_project\mapbox_Styles\Embu\Embu.tm2\tiles.mbtiles

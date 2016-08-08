@@ -3,10 +3,10 @@ _prefs:
   inspector: false
   mapid: ''
   rev: ''
-  saveCenter: true
+  saveCenter: false
 attribution: Upande limited, Unhabitat
 center: 
-  - 37.4912
+  - 37.4929
   - -0.5495
   - 12
 description: ''
