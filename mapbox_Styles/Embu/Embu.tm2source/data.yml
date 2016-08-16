@@ -13,7 +13,7 @@ description: ''
 Layer: 
   - id: Riparian_Reserve
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Riparian_Reserve.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/Riparian_Reserve.shp"
       type: shape
     description: ''
     fields: 
@@ -23,7 +23,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Proposed_Land_Use
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Land_Use.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/Proposed_Land_Use.shp"
       type: shape
     description: ''
     fields: 
@@ -38,7 +38,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: reprojected_Existing_Landuse_Embu_Town
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES/Reprojected_shapefiles\\reprojected_Existing_Landuse_Embu_Town.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/Reprojected_shapefiles/reprojected_Existing_Landuse_Embu_Town.shp"
       type: shape
     description: ''
     fields: 
@@ -52,7 +52,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Proposed_Road_Network
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Road_Network.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/Proposed_Road_Network.shp"
       type: shape
     description: ''
     fields: 
@@ -62,7 +62,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Planning_Boundary
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Planning_Boundary.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/Planning_Boundary.shp"
       type: shape
     description: ''
     fields: 
@@ -73,7 +73,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Kari_Farm
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Kari_Farm.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/Kari_Farm.shp"
       type: shape
     description: ''
     fields: 
@@ -83,7 +83,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Proposed_Ring_Roads
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Ring_Roads.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/Proposed_Ring_Roads.shp"
       type: shape
     description: ''
     fields: 
@@ -94,7 +94,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Proposed_Bypass
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Bypass.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/Proposed_Bypass.shp"
       type: shape
     description: ''
     fields: 
@@ -105,7 +105,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: City_Roads
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\City_Roads.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/City_Roads.shp"
       type: shape
     description: ''
     fields: 
@@ -115,7 +115,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Rivers
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Rivers.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/Rivers.shp"
       type: shape
     description: ''
     fields: 
@@ -125,7 +125,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: River_Front_Development
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\River_Front_Development.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/River_Front_Development.shp"
       type: shape
     description: ''
     fields: 
@@ -139,7 +139,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Proposed_Railway_Line
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Railway_Line.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/Proposed_Railway_Line.shp"
       type: shape
     description: ''
     fields: 
@@ -149,7 +149,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Proposed_Network
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/EMBU/EMBU/PROPOSALS/PROPOSED LAND USE SHAPEFILES/SHAPE FILES\\Proposed_Network.shp"
+      file: "/home/upande/workspace/KMP_project/Data/Embu/Proposed_Network.shp"
       type: shape
     description: ''
     fields: 
