@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#ffffff">
+
+<Parameters>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">37.108,-1.0874,12</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">16</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="source"><![CDATA[tmsource://c:/Work/KMP_PROJECT/KMP_project/mapbox_Styles/Thika/Thika.tm2source]]></Parameter>
+</Parameters>
+
+
+<Style name="Proposed_Lorry_Park" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(238, 221, 85, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Lorry_Park"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Lorry_Park</StyleName>  </Layer>
+
+<Style name="Proposed_Bus_Parks" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(204, 255, 68, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Bus_Parks"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Bus_Parks</StyleName>  </Layer>
+
+<Style name="Proposed_Matatu_Stage" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(170, 68, 221, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Matatu_Stage"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Matatu_Stage</StyleName>  </Layer>
+
+<Style name="Proposed_Public_Utility" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(238, 221, 238, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Public_Utility"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Public_Utility</StyleName>  </Layer>
+
+<Style name="Proposed_Commercial" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(187, 170, 68, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Commercial"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Commercial</StyleName>  </Layer>
+
+<Style name="Proposed_Public_Purpose" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(187, 170, 136, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Public_Purpose"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Public_Purpose</StyleName>  </Layer>
+
+<Style name="Proposed_Recreational" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(85, 102, 221, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Recreational"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Recreational</StyleName>  </Layer>
+
+<Style name="Proposed_Educational" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(170, 102, 204, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Educational"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Educational</StyleName>  </Layer>
+
+<Style name="Proposed_Industrial" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(119, 204, 102, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Industrial"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Industrial</StyleName>  </Layer>
+
+<Style name="Proposed_Conservation" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(170, 255, 68, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Conservation"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Conservation</StyleName>  </Layer>
+
+<Style name="Quarry" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(136, 136, 68, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Quarry"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Quarry</StyleName>  </Layer>
+
+<Style name="Agricultural" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(136, 170, 68, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Agricultural"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Agricultural</StyleName>  </Layer>
+
+<Style name="Existing_Public_Purpose" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(221, 204, 170, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Existing_Public_Purpose"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Existing_Public_Purpose</StyleName>  </Layer>
+
+<Style name="Existing_Recreational" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(102, 119, 238, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Existing_Recreational"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Existing_Recreational</StyleName>  </Layer>
+
+<Style name="Existing_Educational" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(204, 136, 153, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Existing_Educational"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Existing_Educational</StyleName>  </Layer>
+
+<Style name="Existing_Industrial" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(136, 221, 119, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Existing_Industrial"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Existing_Industrial</StyleName>  </Layer>
+
+<Style name="Existing_Residential" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(238, 170, 255, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Existing_Residential"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Existing_Residential</StyleName>  </Layer>
+
+<Style name="Riparian_Reserve" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(68, 68, 238, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Riparian_Reserve"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Riparian_Reserve</StyleName>  </Layer>
+
+<Style name="Dams" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(68, 255, 119, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Dams"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Dams</StyleName>  </Layer>
+
+<Style name="River_Front_Development" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(187, 204, 204, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="River_Front_Development"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>River_Front_Development</StyleName>  </Layer>
+
+<Style name="Transportation_Network" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(68, 136, 119, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Transportation_Network"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Transportation_Network</StyleName>  </Layer>
+
+<Style name="Planning_Area_Boundary" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(204, 68, 238, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Planning_Area_Boundary"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Planning_Area_Boundary</StyleName>  </Layer>
+
+<Style name="River" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(255, 85, 119, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="River"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>River</StyleName>  </Layer>
+
+<Style name="Centerline" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(119, 102, 85, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Centerline"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Centerline</StyleName>  </Layer>
+
+<Style name="DrainageTunnel" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(119, 255, 85, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="DrainageTunnel"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>DrainageTunnel</StyleName>  </Layer>
+
+</Map>

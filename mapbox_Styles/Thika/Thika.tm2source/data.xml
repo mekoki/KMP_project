@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="attribution"><![CDATA[upande limited, UNhabitat]]></Parameter>
+  <Parameter name="center">37.1045,-1.0668,14</Parameter>
+  <Parameter name="description"><![CDATA[proposed thika town structure plan]]></Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"Proposed_Lorry_Park","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Bus_Parks","description":"","fields":{"Id":"Number","area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Matatu_Stage","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Public_Utility","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Commercial","description":"","fields":{"Id":"Number","area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Public_Purpose","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Recreational","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Educational","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Industrial","description":"","fields":{"Id":"Number","area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Conservation","description":"","fields":{"Id":"Number","Area":"Number","Code":"String","Subscript":"String"}},{"id":"Quarry","description":"","fields":{"Id":"Number","Area":"Number"}},{"id":"Agricultural","description":"","fields":{"Id":"Number","area":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Public_Purpose","description":"","fields":{"Id":"Number","Height":"Number","Code":"String","Subscript":"String","area":"Number"}},{"id":"Existing_Recreational","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Educational","description":"","fields":{"Id":"Number","Area":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Industrial","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Residential","description":"","fields":{"Id":"Number","area":"Number","Code":"String","Subscript":"String"}},{"id":"Riparian_Reserve","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Dams","description":"","fields":{"Id":"Number"}},{"id":"River_Front_Development","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String","Area":"Number"}},{"id":"Transportation_Network","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Planning_Area_Boundary","description":"","fields":{"Id":"Number","area":"Number"}},{"id":"River","description":"","fields":{"Id":"Number"}},{"id":"Centerline","description":"","fields":{"Id":"Number","Width":"String","length":"Number"}},{"id":"DrainageTunnel","description":"","fields":{"Id":"Number"}}]}]]></Parameter>
+  <Parameter name="maxzoom">16</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[Thika]]></Parameter>
+</Parameters>
+
+
+<Layer name="Proposed_Lorry_Park"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Proposed Lorry Park.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Bus_Parks"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Proposed Bus Parks.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Matatu_Stage"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Proposed Matatu Stage.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Public_Utility"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Proposed Public Utility.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Commercial"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Proposed Commercial.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Public_Purpose"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Proposed Public Purpose.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Recreational"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Proposed Recreational.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Educational"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Proposed Educational.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Industrial"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Proposed Industrial.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Proposed_Conservation"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Proposed Conservation.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Quarry"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Quarry.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Agricultural"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Agricultural.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Existing_Public_Purpose"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Existing Public Purpose.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Existing_Recreational"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Existing Recreational.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Existing_Educational"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Existing Educational.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Existing_Industrial"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Existing Industrial.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Existing_Residential"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Existing Residential.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Riparian_Reserve"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Riparian Reserve.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Dams"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Dams.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="River_Front_Development"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\River Front Development.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Transportation_Network"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Transportation Network.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Planning_Area_Boundary"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Planning_Area_Boundary.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="River"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\River.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Centerline"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Centerline.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="DrainageTunnel"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\DrainageTunnel.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>

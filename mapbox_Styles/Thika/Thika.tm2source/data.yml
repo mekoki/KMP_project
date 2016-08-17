@@ -1,0 +1,333 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: ''
+  rev: ''
+  saveCenter: true
+attribution: upande limited, UNhabitat
+center: 
+  - 37.1045
+  - -1.0668
+  - 14
+description: proposed thika town structure plan
+Layer: 
+  - id: Proposed_Lorry_Park
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Lorry Park.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Name: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Bus_Parks
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Bus Parks.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+      Code: String
+      Name: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Matatu_Stage
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Matatu Stage.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Name: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Public_Utility
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Public Utility.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Name: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Commercial
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Commercial.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+      Code: String
+      Name: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Public_Purpose
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Public Purpose.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Name: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Recreational
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Recreational.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Name: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Educational
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Educational.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Name: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Industrial
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Industrial.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+      Code: String
+      Name: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Conservation
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Conservation.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Quarry
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Quarry.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Agricultural
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Agricultural.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+      Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Existing_Public_Purpose
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Existing Public Purpose.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+      Code: String
+      Height: Number
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Existing_Recreational
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Existing Recreational.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Existing_Educational
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Existing Educational.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Existing_Industrial
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Existing Industrial.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Existing_Residential
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Existing Residential.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+      Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Riparian_Reserve
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Riparian Reserve.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Dams
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Dams.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: River_Front_Development
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\River Front Development.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Transportation_Network
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Transportation Network.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Planning_Area_Boundary
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Planning_Area_Boundary.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: River
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\River.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Centerline
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Centerline.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      length: Number
+      Width: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: DrainageTunnel
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\DrainageTunnel.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+maxzoom: 16
+minzoom: 0
+name: Thika
