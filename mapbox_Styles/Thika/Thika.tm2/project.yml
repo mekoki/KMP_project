@@ -9,8 +9,8 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 37.108
-  - -1.0874
+  - 37.1166
+  - -1.0768
   - 12
 description: ''
 format: "png8:m=h"
@@ -18,7 +18,7 @@ interactivity_layer: ''
 layers: null
 maxzoom: 16
 minzoom: 0
-name: ''
+name: Thika
 source: "tmsource://c:/Work/KMP_PROJECT/KMP_project/mapbox_Styles/Thika/Thika.tm2source"
 styles: 
   - style.mss

@@ -4,17 +4,19 @@
 
 <Parameters>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">37.108,-1.0874,12</Parameter>
+  <Parameter name="center">37.1166,-1.0768,12</Parameter>
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">16</Parameter>
   <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[Thika]]></Parameter>
   <Parameter name="source"><![CDATA[tmsource://c:/Work/KMP_PROJECT/KMP_project/mapbox_Styles/Thika/Thika.tm2source]]></Parameter>
 </Parameters>
 
 
 <Style name="Proposed_Lorry_Park" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(238, 221, 85, 0.5)" />
+    <LineSymbolizer stroke-width="0.1" stroke="#343434" />
+    <PolygonSymbolizer fill="#828282" />
   </Rule>
 </Style>
 <Layer name="Proposed_Lorry_Park"
@@ -23,7 +25,8 @@
 
 <Style name="Proposed_Bus_Parks" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(204, 255, 68, 0.5)" />
+    <LineSymbolizer stroke-width="0.1" stroke="#343434" />
+    <PolygonSymbolizer fill="#828282" />
   </Rule>
 </Style>
 <Layer name="Proposed_Bus_Parks"
@@ -32,7 +35,8 @@
 
 <Style name="Proposed_Matatu_Stage" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(170, 68, 221, 0.5)" />
+    <LineSymbolizer stroke-width="0.1" stroke="#343434" />
+    <PolygonSymbolizer fill="#828282" />
   </Rule>
 </Style>
 <Layer name="Proposed_Matatu_Stage"
@@ -41,7 +45,8 @@
 
 <Style name="Proposed_Public_Utility" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(238, 221, 238, 0.5)" />
+    <LineSymbolizer stroke="#6e6e6e" stroke-width="0.04" />
+    <PolygonSymbolizer fill="#005ce6" />
   </Rule>
 </Style>
 <Layer name="Proposed_Public_Utility"
@@ -50,7 +55,8 @@
 
 <Style name="Proposed_Commercial" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(187, 170, 68, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#e60000" />
   </Rule>
 </Style>
 <Layer name="Proposed_Commercial"
@@ -59,7 +65,8 @@
 
 <Style name="Proposed_Public_Purpose" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(187, 170, 136, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#e6e600" />
   </Rule>
 </Style>
 <Layer name="Proposed_Public_Purpose"
@@ -68,7 +75,8 @@
 
 <Style name="Proposed_Recreational" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(85, 102, 221, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#4ce600" />
   </Rule>
 </Style>
 <Layer name="Proposed_Recreational"
@@ -77,7 +85,8 @@
 
 <Style name="Proposed_Educational" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(170, 102, 204, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#a87000" />
   </Rule>
 </Style>
 <Layer name="Proposed_Educational"
@@ -86,16 +95,28 @@
 
 <Style name="Proposed_Industrial" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(119, 204, 102, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#8400a8" />
   </Rule>
 </Style>
 <Layer name="Proposed_Industrial"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>Proposed_Industrial</StyleName>  </Layer>
 
+<Style name="Proposed_Residential" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#732600" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Residential"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Residential</StyleName>  </Layer>
+
 <Style name="Proposed_Conservation" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(170, 255, 68, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonPatternSymbolizer file="images/proposed_conservation_2.png" />
   </Rule>
 </Style>
 <Layer name="Proposed_Conservation"
@@ -104,7 +125,8 @@
 
 <Style name="Quarry" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(136, 136, 68, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonPatternSymbolizer file="images/quarry_2.png" />
   </Rule>
 </Style>
 <Layer name="Quarry"
@@ -113,16 +135,38 @@
 
 <Style name="Agricultural" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(136, 170, 68, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonPatternSymbolizer file="images/agriculture.png" />
   </Rule>
 </Style>
 <Layer name="Agricultural"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>Agricultural</StyleName>  </Layer>
 
+<Style name="Existing_Public_Utility" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#0070ff" />
+  </Rule>
+</Style>
+<Layer name="Existing_Public_Utility"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Existing_Public_Utility</StyleName>  </Layer>
+
+<Style name="Existing_Commercial" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#ff0000" />
+  </Rule>
+</Style>
+<Layer name="Existing_Commercial"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Existing_Commercial</StyleName>  </Layer>
+
 <Style name="Existing_Public_Purpose" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(221, 204, 170, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#ffff73" />
   </Rule>
 </Style>
 <Layer name="Existing_Public_Purpose"
@@ -131,7 +175,8 @@
 
 <Style name="Existing_Recreational" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(102, 119, 238, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#a3ff73" />
   </Rule>
 </Style>
 <Layer name="Existing_Recreational"
@@ -140,7 +185,8 @@
 
 <Style name="Existing_Educational" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(204, 136, 153, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#e69800" />
   </Rule>
 </Style>
 <Layer name="Existing_Educational"
@@ -149,7 +195,8 @@
 
 <Style name="Existing_Industrial" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(136, 221, 119, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#a900e6" />
   </Rule>
 </Style>
 <Layer name="Existing_Industrial"
@@ -158,7 +205,8 @@
 
 <Style name="Existing_Residential" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(238, 170, 255, 0.5)" />
+    <LineSymbolizer stroke-width="1" />
+    <PolygonSymbolizer fill="#895a44" />
   </Rule>
 </Style>
 <Layer name="Existing_Residential"
@@ -167,7 +215,9 @@
 
 <Style name="Riparian_Reserve" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(68, 68, 238, 0.5)" />
+    <LineSymbolizer stroke="#559944" stroke-width="2" />
+    <PolygonSymbolizer fill-opacity="1" fill="#550011" />
+    <PolygonPatternSymbolizer file="images/riparian_reserve.png" />
   </Rule>
 </Style>
 <Layer name="Riparian_Reserve"
@@ -176,7 +226,8 @@
 
 <Style name="Dams" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(68, 255, 119, 0.5)" />
+    <LineSymbolizer stroke-width="0.04" />
+    <PolygonSymbolizer fill="#73b2ff" />
   </Rule>
 </Style>
 <Layer name="Dams"
@@ -185,7 +236,9 @@
 
 <Style name="River_Front_Development" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(187, 204, 204, 0.5)" />
+    <LineSymbolizer stroke="#000000" stroke-width="0.12" />
+    <PolygonSymbolizer fill-opacity="1" />
+    <PolygonPatternSymbolizer file="images/river_front_development.png" />
   </Rule>
 </Style>
 <Layer name="River_Front_Development"
@@ -194,7 +247,32 @@
 
 <Style name="Transportation_Network" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(68, 136, 119, 0.5)" />
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="0.5" stroke="#6e6e6e" />
+    <PolygonSymbolizer fill-opacity="1" fill="#686868" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <LineSymbolizer stroke-width="0.3" stroke="#6e6e6e" />
+    <PolygonSymbolizer fill-opacity="1" fill="#686868" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="0.2" stroke="#6e6e6e" />
+    <PolygonSymbolizer fill-opacity="1" fill="#686868" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="0.1" stroke="#6e6e6e" />
+    <PolygonSymbolizer fill-opacity="1" fill="#686868" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <LineSymbolizer stroke="#6e6e6e" stroke-width="0.1" />
+    <PolygonSymbolizer fill-opacity="1" fill="#686868" />
   </Rule>
 </Style>
 <Layer name="Transportation_Network"
@@ -203,38 +281,85 @@
 
 <Style name="Planning_Area_Boundary" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(204, 68, 238, 0.5)" />
+    <LineSymbolizer stroke="#000000" stroke-width="1" stroke-dasharray="10, 5" />
+  </Rule>
+</Style>
+<Style name="Planning_Area_Boundary-fill" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="8" stroke="#a80000" />
   </Rule>
 </Style>
 <Layer name="Planning_Area_Boundary"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Planning_Area_Boundary-fill</StyleName>
     <StyleName>Planning_Area_Boundary</StyleName>  </Layer>
 
 <Style name="River" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(255, 85, 119, 0.5)" />
+    <LineSymbolizer stroke="#005ce6" stroke-width="1" />
   </Rule>
 </Style>
 <Layer name="River"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>River</StyleName>  </Layer>
 
-<Style name="Centerline" filter-mode="first">
+<Style name="Centerline-hatch" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(119, 102, 85, 0.5)" />
+    <Filter>([Width] = 'Railway Line')</Filter>
+    <LineSymbolizer stroke-width="5" stroke-dasharray="1, 10" stroke="#000000" />
+  </Rule>
+</Style>
+<Style name="Centerline-dash" filter-mode="first">
+  <Rule>
+    <Filter>([Width] = 'Proposed Inner Ring Roads')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-width="6" stroke-dasharray="5, 5" />
+  </Rule>
+  <Rule>
+    <Filter>([Width] = 'Proposed City Roads')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-width="6" stroke-dasharray="5, 5" />
+  </Rule>
+  <Rule>
+    <Filter>([Width] = 'Proposed Bypass')</Filter>
+    <LineSymbolizer stroke="#ff73e7" stroke-width="6" stroke-dasharray="5, 5" />
+  </Rule>
+</Style>
+<Style name="Centerline-line" filter-mode="first">
+  <Rule>
+    <Filter>([Width] = 'Railway Line')</Filter>
+    <LineSymbolizer stroke-width="0.7" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <Filter>([Width] = 'Proposed Inner Ring Roads')</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#6e6e6e" />
+  </Rule>
+  <Rule>
+    <Filter>([Width] = 'Proposed City Roads')</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#555555" />
+  </Rule>
+  <Rule>
+    <Filter>([Width] = 'Proposed Bypass')</Filter>
+    <LineSymbolizer stroke="#555555" stroke-width="4" />
   </Rule>
 </Style>
 <Layer name="Centerline"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-    <StyleName>Centerline</StyleName>  </Layer>
+    <StyleName>Centerline-line</StyleName>
+    <StyleName>Centerline-dash</StyleName>
+    <StyleName>Centerline-hatch</StyleName>  </Layer>
 
-<Style name="DrainageTunnel" filter-mode="first">
+<Style name="DrainageTunnel-dash" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="1" stroke="rgba(119, 255, 85, 0.5)" />
+    <LineSymbolizer stroke="#0046ff" stroke-width="6" stroke-dasharray="5, 5" />
+  </Rule>
+</Style>
+<Style name="DrainageTunnel-line" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="6" stroke="#0070ff" />
   </Rule>
 </Style>
 <Layer name="DrainageTunnel"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-    <StyleName>DrainageTunnel</StyleName>  </Layer>
+    <StyleName>DrainageTunnel-line</StyleName>
+    <StyleName>DrainageTunnel-dash</StyleName>  </Layer>
 
 </Map>

@@ -4,10 +4,10 @@
 
 <Parameters>
   <Parameter name="attribution"><![CDATA[upande limited, UNhabitat]]></Parameter>
-  <Parameter name="center">37.1045,-1.0668,14</Parameter>
+  <Parameter name="center">37.1026,-1.0763,12</Parameter>
   <Parameter name="description"><![CDATA[proposed thika town structure plan]]></Parameter>
   <Parameter name="format">pbf</Parameter>
-  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"Proposed_Lorry_Park","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Bus_Parks","description":"","fields":{"Id":"Number","area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Matatu_Stage","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Public_Utility","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Commercial","description":"","fields":{"Id":"Number","area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Public_Purpose","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Recreational","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Educational","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Industrial","description":"","fields":{"Id":"Number","area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Conservation","description":"","fields":{"Id":"Number","Area":"Number","Code":"String","Subscript":"String"}},{"id":"Quarry","description":"","fields":{"Id":"Number","Area":"Number"}},{"id":"Agricultural","description":"","fields":{"Id":"Number","area":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Public_Purpose","description":"","fields":{"Id":"Number","Height":"Number","Code":"String","Subscript":"String","area":"Number"}},{"id":"Existing_Recreational","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Educational","description":"","fields":{"Id":"Number","Area":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Industrial","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Residential","description":"","fields":{"Id":"Number","area":"Number","Code":"String","Subscript":"String"}},{"id":"Riparian_Reserve","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Dams","description":"","fields":{"Id":"Number"}},{"id":"River_Front_Development","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String","Area":"Number"}},{"id":"Transportation_Network","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Planning_Area_Boundary","description":"","fields":{"Id":"Number","area":"Number"}},{"id":"River","description":"","fields":{"Id":"Number"}},{"id":"Centerline","description":"","fields":{"Id":"Number","Width":"String","length":"Number"}},{"id":"DrainageTunnel","description":"","fields":{"Id":"Number"}}]}]]></Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"Proposed_Lorry_Park","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Bus_Parks","description":"","fields":{"Id":"Number","area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Matatu_Stage","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Public_Utility","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Commercial","description":"","fields":{"Id":"Number","area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Public_Purpose","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Recreational","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Educational","description":"","fields":{"Id":"Number","Area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Industrial","description":"","fields":{"Id":"Number","area":"Number","Name":"String","Code":"String","Subscript":"String"}},{"id":"Proposed_Residential","description":"","fields":{"Id":"Number","area":"Number","Code":"String","Subscript":"String"}},{"id":"Proposed_Conservation","description":"","fields":{"Id":"Number","Area":"Number","Code":"String","Subscript":"String"}},{"id":"Quarry","description":"","fields":{"Id":"Number","Area":"Number"}},{"id":"Agricultural","description":"","fields":{"Id":"Number","area":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Public_Utility","description":"","fields":{"Id":"Number","area":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Commercial","description":"","fields":{"Id":"Number","Area":"Number","Height":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Public_Purpose","description":"","fields":{"Id":"Number","Height":"Number","Code":"String","Subscript":"String","area":"Number"}},{"id":"Existing_Recreational","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Educational","description":"","fields":{"Id":"Number","Area":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Industrial","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Existing_Residential","description":"","fields":{"Id":"Number","area":"Number","Code":"String","Subscript":"String"}},{"id":"Riparian_Reserve","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Dams","description":"","fields":{"Id":"Number"}},{"id":"River_Front_Development","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String","Area":"Number"}},{"id":"Transportation_Network","description":"","fields":{"Id":"Number","Code":"String","Subscript":"String"}},{"id":"Planning_Area_Boundary","description":"","fields":{"Id":"Number","area":"Number"}},{"id":"River","description":"","fields":{"Id":"Number"}},{"id":"Centerline","description":"","fields":{"Id":"Number","Width":"String","length":"Number"}},{"id":"DrainageTunnel","description":"","fields":{"Id":"Number"}}]}]]></Parameter>
   <Parameter name="maxzoom">16</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="name"><![CDATA[Thika]]></Parameter>
@@ -104,6 +104,16 @@
     </Datasource>
   </Layer>
 
+<Layer name="Proposed_Residential"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Proposed Residential.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
 <Layer name="Proposed_Conservation"
   buffer-size="32"
   srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
@@ -130,6 +140,26 @@
     
     <Datasource>
        <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Agricultural.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Existing_Public_Utility"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Existing Public Utility.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="Existing_Commercial"
+  buffer-size="32"
+  srs="+proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\Existing Commercial.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>

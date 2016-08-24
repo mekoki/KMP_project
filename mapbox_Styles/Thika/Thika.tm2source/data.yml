@@ -6,9 +6,9 @@ _prefs:
   saveCenter: true
 attribution: upande limited, UNhabitat
 center: 
-  - 37.1045
-  - -1.0668
-  - 14
+  - 37.1026
+  - -1.0763
+  - 12
 description: proposed thika town structure plan
 Layer: 
   - id: Proposed_Lorry_Park
@@ -137,6 +137,19 @@ Layer:
     properties: 
       "buffer-size": 32
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Residential
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Residential.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+      Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Proposed_Conservation
     Datasource: 
       file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Proposed Conservation.shp"
@@ -170,6 +183,33 @@ Layer:
       Id: Number
       area: Number
       Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Existing_Public_Utility
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Existing Public Utility.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+      Code: String
+      Subscript: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Existing_Commercial
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/Thika mapping products/Disk 2 (Proposed land use. Topographical maps)/PROPOSED LAND USE/SHAPE FILES\\Existing Commercial.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Height: Number
       Subscript: String
     properties: 
       "buffer-size": 32
