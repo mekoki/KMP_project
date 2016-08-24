@@ -188,9 +188,9 @@ polygon-pattern-file: url(images/quarry_2.png);
     }
   [Width ='Railway Line']{
   ::line, ::hatch { line-color: #000; }
-  ::line { line-width:0.7; }
+  ::line { line-width:2; }
   ::hatch {
-    line-width: 5;
+    line-width: 7;
     line-dasharray: 1, 10;
   }
     }
@@ -198,12 +198,12 @@ polygon-pattern-file: url(images/quarry_2.png);
 
 #DrainageTunnel {
 ::line {
-    line-width:6;
+    line-width:5;
     line-color: #0070ff;
   }
   ::dash {
     line-color: #0046ff;
-    line-width: 6;
+    line-width: 5;
     line-dasharray: 5, 5;
   }
 }

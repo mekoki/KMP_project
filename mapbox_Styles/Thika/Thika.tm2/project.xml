@@ -4,7 +4,7 @@
 
 <Parameters>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">37.1166,-1.0768,12</Parameter>
+  <Parameter name="center">37.1092,-1.0646,15</Parameter>
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">16</Parameter>
   <Parameter name="minzoom">0</Parameter>
@@ -306,7 +306,7 @@
 <Style name="Centerline-hatch" filter-mode="first">
   <Rule>
     <Filter>([Width] = 'Railway Line')</Filter>
-    <LineSymbolizer stroke-width="5" stroke-dasharray="1, 10" stroke="#000000" />
+    <LineSymbolizer stroke-width="7" stroke-dasharray="1, 10" stroke="#000000" />
   </Rule>
 </Style>
 <Style name="Centerline-dash" filter-mode="first">
@@ -326,7 +326,7 @@
 <Style name="Centerline-line" filter-mode="first">
   <Rule>
     <Filter>([Width] = 'Railway Line')</Filter>
-    <LineSymbolizer stroke-width="0.7" stroke="#000000" />
+    <LineSymbolizer stroke-width="2" stroke="#000000" />
   </Rule>
   <Rule>
     <Filter>([Width] = 'Proposed Inner Ring Roads')</Filter>
@@ -349,12 +349,12 @@
 
 <Style name="DrainageTunnel-dash" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#0046ff" stroke-width="6" stroke-dasharray="5, 5" />
+    <LineSymbolizer stroke="#0046ff" stroke-width="5" stroke-dasharray="5, 5" />
   </Rule>
 </Style>
 <Style name="DrainageTunnel-line" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="6" stroke="#0070ff" />
+    <LineSymbolizer stroke-width="5" stroke="#0070ff" />
   </Rule>
 </Style>
 <Layer name="DrainageTunnel"

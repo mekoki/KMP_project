@@ -6,28 +6,107 @@ _prefs:
   saveCenter: true
 attribution: ''
 center: 
-  - 40.0675
-  - -3.2391
+  - 40.038
+  - -3.2413
   - 12
 description: ''
 Layer: 
-  - id: Transportation
+  - id: Planning_Boundary
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Transportation.shp"
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Planning Boundary.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      area: Number
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Agricultural
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Agricultural.shp"
       type: shape
     description: ''
     fields: 
       Id: Number
       Area: Number
+      Code: String
       Code1: String
-      Code2: String
-      Name: String
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Undeveloped_Agriculture
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Undeveloped Agriculture.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Conservation
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Conservation.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Wet_Land
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Wet Land.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Water_Mass
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Water Mass.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Mangrove
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Mangrove.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
     properties: 
       "buffer-size": 32
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Residential
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Residential.shp"
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Residential.shp"
       type: shape
     description: ''
     fields: 
@@ -39,9 +118,145 @@ Layer:
     properties: 
       "buffer-size": 32
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Reparian_Reserve
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Reparian Reserve.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Recreational
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Recreational.shp"
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Recreational.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code1: String
+      Code2: String
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Public_Utility
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Public Utility.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Public_Purpose
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Public Purpose.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Industrial
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Industrial.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Educational
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Educational.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code1: String
+      Code2: String
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Commercial
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Commercial.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code2: String
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Beach
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Beach.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Transportation
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Land use_Existing/Shapefiles\\Transportation.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Residential
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles/Renamed_Shapefiles\\Proposed_Residential.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code: String
+      Code1: String
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Recreational
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles/Renamed_Shapefiles\\Proposed_Recreational.shp"
       type: shape
     description: ''
     fields: 
@@ -54,9 +269,9 @@ Layer:
     properties: 
       "buffer-size": 32
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
-  - id: Public_Utility
+  - id: Proposed_Public_Utility
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Public Utility.shp"
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles/Renamed_Shapefiles\\Proposed_Public_Utility.shp"
       type: shape
     description: ''
     fields: 
@@ -68,9 +283,9 @@ Layer:
     properties: 
       "buffer-size": 32
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
-  - id: Public_Purpose
+  - id: Proposed_Public_Purpose
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Public Purpose.shp"
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles/Renamed_Shapefiles\\Proposed_Public_Purpose.shp"
       type: shape
     description: ''
     fields: 
@@ -82,9 +297,9 @@ Layer:
     properties: 
       "buffer-size": 32
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
-  - id: Industrial
+  - id: Proposed_Industrial
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Industrial.shp"
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles/Renamed_Shapefiles\\Proposed_Industrial.shp"
       type: shape
     description: ''
     fields: 
@@ -96,9 +311,9 @@ Layer:
     properties: 
       "buffer-size": 32
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
-  - id: Educational
+  - id: Proposed_Educational
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Educational.shp"
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles/Renamed_Shapefiles\\Proposed_Educational.shp"
       type: shape
     description: ''
     fields: 
@@ -110,9 +325,23 @@ Layer:
     properties: 
       "buffer-size": 32
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
-  - id: Commercial
+  - id: Proposed_Commercial
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Commercial.shp"
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles/Renamed_Shapefiles\\Proposed_Commercial.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Area: Number
+      Code1: String
+      Code2: String
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Transportation
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles/Renamed_Shapefiles\\Proposed_Transportation.shp"
       type: shape
     description: ''
     fields: 
@@ -126,7 +355,7 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Proposed_Railway
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Proposed Railway.shp"
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles\\Proposed Railway.shp"
       type: shape
     description: ''
     fields: 
@@ -134,31 +363,9 @@ Layer:
     properties: 
       "buffer-size": 32
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
-  - id: Proposed_Outer_Ring_Road
+  - id: Proposed_Major_Roads
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Proposed Outer Ring Road.shp"
-      type: shape
-    description: ''
-    fields: 
-      Id: Number
-      Name: String
-    properties: 
-      "buffer-size": 32
-    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
-  - id: Proposed_Outer_Bypass
-    Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Proposed Outer Bypass.shp"
-      type: shape
-    description: ''
-    fields: 
-      Id: Number
-      Name: String
-    properties: 
-      "buffer-size": 32
-    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
-  - id: Proposed_Malindi_Bypass
-    Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Proposed Malindi Bypass.shp"
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles/Renamed_Shapefiles\\Proposed_Major_Roads.shp"
       type: shape
     description: ''
     fields: 
@@ -169,7 +376,40 @@ Layer:
     srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
   - id: Proposed_Inner_Ring_Road
     Datasource: 
-      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Proposals/Land Use/Shapefiles\\Proposed Inner Ring Road.shp"
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles\\Proposed Inner Ring Road.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Malindi_Bypass
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles\\Proposed Malindi Bypass.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Outer_Ring_Road
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles\\Proposed Outer Ring Road.shp"
+      type: shape
+    description: ''
+    fields: 
+      Id: Number
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Proposed_Outer_Bypass
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles\\Proposed Outer Bypass.shp"
       type: shape
     description: ''
     fields: 
