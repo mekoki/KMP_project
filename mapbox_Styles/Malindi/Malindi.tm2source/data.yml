@@ -6,9 +6,9 @@ _prefs:
   saveCenter: true
 attribution: ''
 center: 
-  - 40.038
-  - -3.2413
-  - 12
+  - 40.0404
+  - -3.2458
+  - 11
 description: ''
 Layer: 
   - id: Planning_Boundary
@@ -414,6 +414,17 @@ Layer:
     description: ''
     fields: 
       Id: Number
+      Name: String
+    properties: 
+      "buffer-size": 32
+    srs: +proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+  - id: Areas_Name_redefined
+    Datasource: 
+      file: "c:/Work/KMP_PROJECT/KMP_DATA/MALINDI/Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)/Proposals/Land Use/Shapefiles/Renamed_Shapefiles\\Areas_Name_redefined.shp"
+      type: shape
+    description: ''
+    fields: 
+      Descriptio: String
       Name: String
     properties: 
       "buffer-size": 32

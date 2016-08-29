@@ -1,42 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map[]>
-<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#b8dee6">
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#ffffff">
 
 <Parameters>
-  <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">40.0754,-3.2236,12</Parameter>
+  <Parameter name="center">40.0493,-3.2135,11</Parameter>
   <Parameter name="format">png8:m=h</Parameter>
-  <Parameter name="maxzoom">22</Parameter>
+  <Parameter name="maxzoom">16</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="source"><![CDATA[tmsource://c:/Work/KMP_PROJECT/KMP_project/mapbox_Styles/Malindi/Malindi.tm2source]]></Parameter>
 </Parameters>
 
 
-<Style name="Transportation" filter-mode="first">
+<Style name="Planning_Boundary" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#559944" stroke-width="0.5" />
-    <PolygonSymbolizer fill-opacity="1" fill="#686868" />
+    <LineSymbolizer stroke-width="1" stroke="rgba(255, 153, 187, 0.5)" />
   </Rule>
 </Style>
-<Layer name="Transportation"
+<Layer name="Planning_Boundary"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-    <StyleName>Transportation</StyleName>  </Layer>
+    <StyleName>Planning_Boundary</StyleName>  </Layer>
+
+<Style name="Agricultural" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(136, 170, 68, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Agricultural"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Agricultural</StyleName>  </Layer>
+
+<Style name="Undeveloped_Agriculture" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(255, 85, 255, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Undeveloped_Agriculture"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Undeveloped_Agriculture</StyleName>  </Layer>
+
+<Style name="Conservation" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(170, 255, 68, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Conservation"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Conservation</StyleName>  </Layer>
+
+<Style name="Wet_Land" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(221, 136, 119, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Wet_Land"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Wet_Land</StyleName>  </Layer>
+
+<Style name="Water_Mass" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(136, 119, 136, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Water_Mass"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Water_Mass</StyleName>  </Layer>
+
+<Style name="Mangrove" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(85, 102, 68, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Mangrove"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Mangrove</StyleName>  </Layer>
 
 <Style name="Residential" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#559944" stroke-width="0.5" />
-    <PolygonSymbolizer fill-opacity="1" fill="#895a44" />
+    <LineSymbolizer stroke-width="1" stroke="rgba(221, 153, 238, 0.5)" />
   </Rule>
 </Style>
 <Layer name="Residential"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>Residential</StyleName>  </Layer>
 
+<Style name="Reparian_Reserve" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(102, 102, 68, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Reparian_Reserve"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Reparian_Reserve</StyleName>  </Layer>
+
 <Style name="Recreational" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#a3ff73" stroke-width="0.5" />
-    <PolygonSymbolizer fill-opacity="1" fill="#a3ff73" />
+    <LineSymbolizer stroke-width="1" stroke="rgba(85, 102, 221, 0.5)" />
   </Rule>
 </Style>
 <Layer name="Recreational"
@@ -45,8 +104,7 @@
 
 <Style name="Public_Utility" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#a30012" stroke-width="0.5" />
-    <PolygonSymbolizer fill-opacity="1" fill="#a3ff73" />
+    <LineSymbolizer stroke-width="1" stroke="rgba(238, 255, 238, 0.5)" />
   </Rule>
 </Style>
 <Layer name="Public_Utility"
@@ -55,8 +113,7 @@
 
 <Style name="Public_Purpose" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#a30012" stroke-width="0.5" />
-    <PolygonSymbolizer fill-opacity="1" fill="#a3ff73" />
+    <LineSymbolizer stroke-width="1" stroke="rgba(221, 204, 170, 0.5)" />
   </Rule>
 </Style>
 <Layer name="Public_Purpose"
@@ -65,8 +122,7 @@
 
 <Style name="Industrial" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#559944" stroke-width="0.5" />
-    <PolygonSymbolizer fill-opacity="1" fill="#c500ff" />
+    <LineSymbolizer stroke-width="1" stroke="rgba(119, 204, 102, 0.5)" />
   </Rule>
 </Style>
 <Layer name="Industrial"
@@ -75,8 +131,7 @@
 
 <Style name="Educational" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#559944" stroke-width="0.5" />
-    <PolygonSymbolizer fill-opacity="1" fill="#e69800" />
+    <LineSymbolizer stroke-width="1" stroke="rgba(204, 136, 170, 0.5)" />
   </Rule>
 </Style>
 <Layer name="Educational"
@@ -85,37 +140,164 @@
 
 <Style name="Commercial" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke="#559944" stroke-width="0.5" />
-    <PolygonSymbolizer fill-opacity="1" fill="#ff0000" />
+    <LineSymbolizer stroke-width="1" stroke="rgba(187, 170, 68, 0.5)" />
   </Rule>
 </Style>
 <Layer name="Commercial"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>Commercial</StyleName>  </Layer>
 
+<Style name="Beach" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(221, 136, 136, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Beach"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Beach</StyleName>  </Layer>
+
+<Style name="Transportation" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(68, 136, 238, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Transportation"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Transportation</StyleName>  </Layer>
+
+<Style name="Proposed_Residential" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(221, 153, 238, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Residential"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Residential</StyleName>  </Layer>
+
+<Style name="Proposed_Recreational" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(85, 102, 221, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Recreational"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Recreational</StyleName>  </Layer>
+
+<Style name="Proposed_Public_Utility" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(238, 221, 238, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Public_Utility"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Public_Utility</StyleName>  </Layer>
+
+<Style name="Proposed_Public_Purpose" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(187, 170, 136, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Public_Purpose"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Public_Purpose</StyleName>  </Layer>
+
+<Style name="Proposed_Industrial" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(119, 204, 102, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Industrial"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Industrial</StyleName>  </Layer>
+
+<Style name="Proposed_Educational" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(170, 102, 204, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Educational"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Educational</StyleName>  </Layer>
+
+<Style name="Proposed_Commercial" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(187, 170, 68, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Commercial"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Commercial</StyleName>  </Layer>
+
+<Style name="Proposed_Transportation" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(238, 102, 204, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Transportation"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Transportation</StyleName>  </Layer>
+
+<Style name="Proposed_Railway" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(187, 255, 68, 0.5)" />
+  </Rule>
+</Style>
 <Layer name="Proposed_Railway"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-      </Layer>
+    <StyleName>Proposed_Railway</StyleName>  </Layer>
 
-<Layer name="Proposed_Outer_Ring_Road"
+<Style name="Proposed_Major_Roads" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(255, 187, 136, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Major_Roads"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-      </Layer>
-
-<Layer name="Proposed_Outer_Bypass"
-  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-      </Layer>
-
-<Layer name="Proposed_Malindi_Bypass"
-  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-      </Layer>
+    <StyleName>Proposed_Major_Roads</StyleName>  </Layer>
 
 <Style name="Proposed_Inner_Ring_Road" filter-mode="first">
   <Rule>
-    <LineSymbolizer stroke-width="3" stroke="#5eab00" />
+    <LineSymbolizer stroke-width="1" stroke="rgba(170, 68, 119, 0.5)" />
   </Rule>
 </Style>
 <Layer name="Proposed_Inner_Ring_Road"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>Proposed_Inner_Ring_Road</StyleName>  </Layer>
+
+<Style name="Proposed_Malindi_Bypass" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(68, 238, 255, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Malindi_Bypass"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Malindi_Bypass</StyleName>  </Layer>
+
+<Style name="Proposed_Outer_Ring_Road" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(255, 153, 204, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Outer_Ring_Road"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Outer_Ring_Road</StyleName>  </Layer>
+
+<Style name="Proposed_Outer_Bypass" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(68, 102, 119, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Proposed_Outer_Bypass"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Proposed_Outer_Bypass</StyleName>  </Layer>
+
+<Style name="Areas_Name_redefined" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke-width="1" stroke="rgba(153, 85, 119, 0.5)" />
+  </Rule>
+</Style>
+<Layer name="Areas_Name_redefined"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>Areas_Name_redefined</StyleName>  </Layer>
 
 </Map>
